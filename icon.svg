@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#243F6B"/>
+      <stop offset="1" stop-color="#121F36"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4F7FC"/>
+      <stop offset="1" stop-color="#DCE5F2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <g transform="translate(512 530) scale(1.16) translate(-512 -530)">
+  <!-- shadow -->
+  <ellipse cx="512" cy="826" rx="250" ry="38" fill="#0A1222" opacity=".55"/>
+  <!-- box: left / right / top faces -->
+  <polygon points="262,388 512,528 512,812 262,672" fill="#8EA9CF"/>
+  <polygon points="512,528 762,388 762,672 512,812" fill="#5E7EAC"/>
+  <polygon points="512,248 762,388 512,528 262,388" fill="url(#top)"/>
+  <!-- tape (orange — same as the app's "ISSUE / out" colour) -->
+  <polygon points="607,301 667,335 417,475 357,441" fill="#E0805F"/>
+  <polygon points="357,441 417,475 417,743 357,709" fill="#C4623F"/>
+  <!-- edge highlights -->
+  <polyline points="262,388 512,528 762,388" fill="none" stroke="#FFFFFF" stroke-opacity=".55" stroke-width="6" stroke-linejoin="round"/>
+  <line x1="512" y1="528" x2="512" y2="812" stroke="#3E5E8C" stroke-width="6"/>
+  <!-- label on the right face -->
+  <polygon points="568,600 702,525 702,600 568,675" fill="#FFFFFF" opacity=".92"/>
+  <polygon points="588,612 682,559 682,568 588,621" fill="#5E7EAC"/>
+  <polygon points="588,634 660,594 660,603 588,643" fill="#5E7EAC"/>
+  </g>
+</svg>
